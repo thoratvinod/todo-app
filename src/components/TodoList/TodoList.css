@@ -1,0 +1,26 @@
+.makeCenter {
+    /* display: table; */
+    margin: 0 auto;
+    width: 60%;
+    animation: fade 0.5s;
+}
+#errMsg {
+    color: red;
+    margin-left: 5px;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+input {
+    width: 77%;
+    margin: 5px;
+    padding: 5px;
+}
+button {
+    width: 20%;
+    padding: 5px;
+
+}
+

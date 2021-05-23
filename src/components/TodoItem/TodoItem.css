@@ -1,0 +1,11 @@
+tr {
+    cursor: pointer;
+}
+
+.listItem {
+    background-color: rgb(70, 134, 177);
+    margin:5px;
+    border: 2px solid rgb(5, 128, 185);
+    padding: 5px;
+    color: white;
+}
