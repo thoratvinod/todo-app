@@ -6,25 +6,8 @@ class TodoList extends Component {
 
     state = {
         todosCounter: 3,
-        todos: [
-            {
-                id: 1,
-                content: "Complete React-Redux course",
-                completed: false
-            },
-            {
-                id: 2,
-                content: "Complete NodeJs course",
-                completed: false
-            },
-            {
-                id: 3,
-                content: "Complete Angular course",
-                completed: false
-            }
-        ],
+        todos: [],
         throwErrorOnInput: false,
-
     }
     addTodo = (e) => {
         e.preventDefault();
